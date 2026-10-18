@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug find_file_lib",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "find_file_lib.main",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}
